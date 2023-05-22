@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  background:#1A2167;
+}
+.heading{
+  width:100%;
+  height:100px;
+  background:#060A3A;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  display:flex;
+  align-items: center;
+}
+.logo img{
+  width:400px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.nav-links{
+  margin-right:40px;
+}
+
+.nav-links  ul li  {
+  display:inline;
+  padding-left:20px;
+}
+.nav-links a {
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+  font-weight:500;
+  transition:color 0.3s ease;
+}
+.nav-links a:hover{
+  color:#2132E4;
+}
+
+.hero{
+  width:100%;
+  height:50vh;
+  background:#1A2167;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom:1px solid #ccc;
+ margin-bottom: 100px;
+}
+.hero-left{
+  width:55%;
+  height:35vh;
+margin-top:450px;
+display: flex;
+flex-direction: column;
+  
+}
+.hero-left-first{
+  margin-left:95px;
+}
+.hero-left h1{
+  color:white;
+  font-size:50px;
+
+  margin-left: 30px;
+  
+}
+.hero-left h2 span, h1 span{
+  color:#616FFF;
+  font-size:45px;
+background: #D4D7F6;
+  padding: 6px 15px;
+  border-radius: 10px;
+  margin-left: 20px;}
+  
+.hero-left-sub{
+  margin-left:100px;
+}
+.hero-right{
+  width:45%;
+  height:40vh;
+  font-size:45px;
+}
+.hero-right img{
+  width:80%;
+  height:80%;
+  margin-top: 100px;
+}
+
+
+.work{
+  width:100%;
+  height:auto;
+  
+}
+.work h1{
+  color:white;
+  margin:20px 0px 20px 70px;
+  font-size:50px;
+  
+  margin-right: 40px;
+
+}
+
+
+.work .line{
+  width:80%;
+  height:2px;
+  background:#ccc;
+  
+  margin: auto;
+  margin-top: 120px;
+  color:#ccc;
+  display: flex;
+  
+
+  
+}
+.text-box{
+  margin:150px 0px 0px  80px;
+  color:#ccc;
+}
+.vertical{
+  width:3px;
+  height: 80px;
+  background:#ccc;
+  margin: 0px 120px;
+  position: relative;
+ 
+}
+.vertical .html{
+  width: 55px;
+  height: 55px;
+}
+.vertical img{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top:-90px;
+  left:-30px;
+}
+.vertical .javascript{
+  width: 90px;
+}
+.vertical-pic{
+  width: 20vw;
+  height: 10vh;
+  margin:80px 20px 0px -30px;
+}
+.vertical-pic h4{
+padding-top: 20px;
+}
+.vertical-pic p{
+  color:#ccc;
+  font-size:13px;
+  margin-top: 10px;
+}
